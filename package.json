@@ -1,0 +1,32 @@
+{
+  "name": " node-todo-mongo",
+  "version": "0.0.6",
+  "description": "This is a simple Todo REST API written as an exercise.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "express": "~3.4.7",
+    "mongoose": "~3.8.4",
+    "q": "~1.0.0",
+    "debug": "~0.7.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0",
+    "supertest": "~0.8.3",
+    "assert": "~1.1.0",
+    "request": "~2.31.0",
+    "istanbul": "~0.2.3",
+    "mocha-istanbul": "~0.2.0",
+    "coveralls": "~2.6.1"
+  },
+  "scripts": {
+    "test": "make test && make test-coverage && make test-coveralls",
+    "start": "node server.js"
+  },
+  "private": true,
+  "author": "Alfonso Fernandez",
+  "license": "BSD-2-Clause"
+}
