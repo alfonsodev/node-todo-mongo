@@ -22,14 +22,7 @@ describe('Integration test', function() {
 
   beforeEach(function(done) {
     mocks.cleanUp(function(err) {
-        if(err) {
-          debug(err);
-          done(err);
-        } else {
-          setTimeout(function(){
-            done();
-          }, MONGO_DELAY);
-        }
+      done();
     });
   });
 
