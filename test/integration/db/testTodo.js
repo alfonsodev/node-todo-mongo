@@ -58,7 +58,7 @@ describe('Integration test', function() {
     });
 
     describe('add', function() {
-      it('adds a task to the task list', function() {
+      it.skip('adds a task to the task list', function() {
         setTimeout(function() {
           tododb.add({ user_id: 1, title: 'additional', body: 'adfad'})
           .then(function() {
@@ -71,7 +71,7 @@ describe('Integration test', function() {
         }, 100);
       });
 
-      it('returns rejects the promise if operation fails', function() {
+      it.skip('returns rejects the promise if operation fails', function() {
         tododb.add('non valid input').
         then(function() {
           //never gets here
