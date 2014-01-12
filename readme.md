@@ -24,23 +24,25 @@ you can run unit and integration tests together with:
 
     make test
 
-Service test require that you start the server previously, then can run:
+Service test require that you start the server previously, then you can run:
 
     make test-service
 
 Otherwise you can run each kind of test with:
 
-###Unit
     mocha --reporter spec test/unit/*
 
-### Integration
     mocha --reporter spec test/integration/*  
-###Service
+
     mocha --reporter spec test/service/*
 
 ##Code coverage
 To obtain a test coverage report
-    make coverage
+    make test-coverage
 
 To see the *code coverage*
     open html-report/index.html
+or
+    lcov-report/index.html
+in addition a coveralls.io report can be found here:
+

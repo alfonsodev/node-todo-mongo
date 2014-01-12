@@ -26,7 +26,14 @@
     "test": "make test && make test-coverage && make test-coveralls",
     "start": "node server.js"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alfonsodev/node-todo-mongo.git"
+  },
   "author": "Alfonso Fernandez",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/alfonsodev/node-todo-mongo/issues"
+  },
+  "homepage": "https://github.com/alfonsodev/node-todo-mongo"
 }
