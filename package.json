@@ -1,6 +1,6 @@
 {
   "name": " node-todo-mongo",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "description": "This is a simple Todo REST API written as an exercise.",
   "main": "server.js",
   "directories": {
